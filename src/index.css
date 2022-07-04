@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(154deg, #12174b, #2e3738);
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+}
+.todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 18px;
+    color: black;
+}
+input,button{
+  width: 350px;
+    font-size: 1.0rem;
+    border: 1px solid #101a86;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+  width: 45px;  
+  color: #101a86;
+  margin-left: 15px;
+  background-color: transparent;
+  border: 1px solid #101a86;
+}
+input:focus{
+  outline: none !important; 
+}
+
+button:hover{
+  background-color: #101a86;
+  color: white;
+  cursor: pointer;
+}
+.todo-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  
+}
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+i{
+  cursor: pointer;
+}
